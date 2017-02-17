@@ -1,0 +1,30 @@
+body {
+    font-family: 'Helvetica Neue',Arial, sans-serif;
+}
+#droppable {
+    padding: 50px 20px;
+    border: 5px dashed #CCCCCC;
+    text-align: center;
+    color: #cccccc;
+    cursor: pointer;
+}
+#droppable p {
+    margin: 0;
+}
+#droppable.over {
+    border: 5px dashed #20cf4b;
+}
+#droppable.over p{
+    visibility: hidden;
+}
+#fileUploader {
+    display: none;
+}
+
+.fields {
+    margin-bottom: 15px;
+}
+.fields label {
+    display: block;
+    margin-bottom: 5px;
+}
